@@ -14,6 +14,9 @@
   
     <title>Site informativo-Irineu</title>
     <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
 </head>
 <body>
   
@@ -36,12 +39,40 @@
             </nav>
 
             <div class="btn-contato">
-                     <a href="https://www.instagram.com/" target=>
+                    <a href="https://www.instagram.com/" target=>
                                 <button>Contato</button>
                                 <a>
 
                             </a>
-                      </div>
+                    </div>
+
+
+                    <div class="btn-abrir-menu" id="btn-menu">
+                        <i class="bi bi-list"></i>
+
+                    </div>
+
+
+                    <div class="menu-mobile" id="menu-mobile">
+                        <div class="btn-fechar">
+                            <i class="bi bi-x-lg"></i>
+                        </div>
+
+                        <nav>
+                            <ul>
+                                <li><a href="#">Inícios</a></li>
+                                <li><a href="#">Especialidades</a></li>
+                                <li><a href="#">Sobre</a></li>
+                                <li><a href="#">Projetos</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                        </nav>
+
+
+                    </div>
+                    <div class="overlay-menu" id="overlay-menu">
+
+                    </div>
                 </div>
             </header>
 
@@ -121,7 +152,65 @@
                                 </div>
                             </div>
                         </section>
+
+                        <section class="portfolio">
+                            <div class="interface">
+                                 <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                                <div class="flex">
+                                        <div class="img-port" style="background-image: url(images/screencapture-toby-fangamer-newsletters-autumn25-2025-09-28-07_35_54.png);">
+                                            <div class="overlay">Projeto 1</div>
+                                        </div>
+                                        <div class="img-port" style="background-image: url(images/screencapture-toby-fangamer-newsletters-autumn25-2025-09-28-07_35_54.png);">
+                                            <div class="overlay">Projeto 2</div>
+                                        </div>
+                                        <div class="img-port" style="background-image: url(images/screencapture-toby-fangamer-newsletters-autumn25-2025-09-28-07_35_54.png);">
+                                            <div class="overlay">Projeto 3</div>
+                                        </div>    
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="formulario">
+                            <div class="interface">
+                                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+
+                                <form action="">
+                                    <input type="text" name="" id=""     placeholder="Seu nome completo:" required>
+                                     <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                                     <input type="text" name="" id="" placeholder="Seu celular:">
+                                    <textarea name="" id=""placeholder="Sua mensagem" required></textarea>
+                                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                                </form>
+                            </div>
+                        </section>
+
                     </main> 
-           </header>
+
+                    <footer>
+                        <div class="interface">
+                            <div class="line-footer">
+                                <div class="flex">
+                                    <div class="logo-footer">
+                                        <img src="images/logo 1.jfif" alt="logo do site">
+                                    </div>
+                                    <div class="btn-social">
+                                            <a href="https://www.instagram.com/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                                            <a href="https://www.whatsapp.com"><button><i class="bi bi-whatsapp"></i></button></a>
+                                            <a href="https://www.github.com/login" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line-footer borda">
+                                    <p><i class="bi bi-envelope-fill"></i><a href="mailto:contato@ysabelle.com.br">contato@ysabelle.com.br</a></p>
+                                </div>
+                            </div>
+                        </footer>
+            </header>
     </body>
     </html>
+    

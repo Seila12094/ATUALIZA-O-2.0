@@ -13,75 +13,82 @@ body {
     height: 100vh;
 }
 .header {
-
-
-
-}
-h3 {
-    color: white;
-    text-align: center;
-    
-
+    padding: 40px 4%;
 
 }
-
-
 
 
 .interface {
-
+    max-width: 1200px;
+    margin: 0 auto;
 
 
 }
 .logo {
     padding: 80px 0;
     margin-top: 70px;
-    border-radius: 50%;
     object-fit: cover;
 
-
-
-
 }
-.container-centralizado {
+.container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    min-height: 100vh;
-
-
-
 
 }
- 
-
-
-.img-redonda{
+.container .imagem-wrapper {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    object-fit: cover;
-   
+    overflow: hidden;
+
+
+}
+.imagem-wrapper {
+    margin-right: 20px;
+    flex-shrink: 0;
+    border-radius: 50%;
+
+}
+
+.container h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+    
+
+}
+
+
+.texto-wrapper {
+    flex-grow: 1;
+    color: white;
+    text-align: justify;
+
+
+}
+.texto-wrapper p {
+    margin-bottom: 10px;
+
+
 
 }
 
 
 
-.topo-do-site {
-
-
-
-}
 h1 {
     color: white;
     text-align: center;
+    display: inline-block;
     
-
 
 }
 h2 {
     color: white;
     text-align: center;
-    
+    display: inline-block;
 
 }
